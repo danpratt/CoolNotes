@@ -13,6 +13,11 @@
 		65C626901E9C2BAC0004139B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C6268F1E9C2BAC0004139B /* Assets.xcassets */; };
 		65C626931E9C2BAC0004139B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C626911E9C2BAC0004139B /* LaunchScreen.storyboard */; };
 		65C6269C1E9C2BDC0004139B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65C6269A1E9C2BDC0004139B /* Model.xcdatamodeld */; };
+		65C626A11E9C3D7D0004139B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626A01E9C3D7D0004139B /* CoreDataStack.swift */; };
+		65C626AE1E9C3FB30004139B /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */; };
+		65C626AF1E9C3FB30004139B /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */; };
+		65C626B01E9C3FB30004139B /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */; };
+		65C626B11E9C3FB30004139B /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		65C626921E9C2BAC0004139B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C626941E9C2BAC0004139B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C6269B1E9C2BDC0004139B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		65C626A01E9C3D7D0004139B /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Model/CoreDataStack.swift; sourceTree = "<group>"; };
+		65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Model/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "Model/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "Model/Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "Model/Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,11 @@
 		65C6269D1E9C3CBC0004139B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */,
+				65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */,
+				65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */,
+				65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */,
+				65C626A01E9C3D7D0004139B /* CoreDataStack.swift */,
 				65C6269A1E9C2BDC0004139B /* Model.xcdatamodeld */,
 			);
 			name = Model;
@@ -148,9 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C626B11E9C3FB30004139B /* Notebook+CoreDataProperties.swift in Sources */,
 				65C6268B1E9C2BAC0004139B /* ViewController.swift in Sources */,
 				65C626891E9C2BAC0004139B /* AppDelegate.swift in Sources */,
+				65C626AE1E9C3FB30004139B /* Note+CoreDataClass.swift in Sources */,
 				65C6269C1E9C2BDC0004139B /* Model.xcdatamodeld in Sources */,
+				65C626B01E9C3FB30004139B /* Notebook+CoreDataClass.swift in Sources */,
+				65C626A11E9C3D7D0004139B /* CoreDataStack.swift in Sources */,
+				65C626AF1E9C3FB30004139B /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +334,7 @@
 				65C626991E9C2BAC0004139B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
