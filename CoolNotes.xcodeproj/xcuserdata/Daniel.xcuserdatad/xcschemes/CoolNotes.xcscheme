@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65C626841E9C2BAC0004139B"
+               BlueprintIdentifier = "ED9E07161C90F369004C22C1"
                BuildableName = "CoolNotes.app"
                BlueprintName = "CoolNotes"
                ReferencedContainer = "container:CoolNotes.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65C626841E9C2BAC0004139B"
+            BlueprintIdentifier = "ED9E07161C90F369004C22C1"
             BuildableName = "CoolNotes.app"
             BlueprintName = "CoolNotes"
             ReferencedContainer = "container:CoolNotes.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65C626841E9C2BAC0004139B"
+            BlueprintIdentifier = "ED9E07161C90F369004C22C1"
             BuildableName = "CoolNotes.app"
             BlueprintName = "CoolNotes"
             ReferencedContainer = "container:CoolNotes.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65C626841E9C2BAC0004139B"
+            BlueprintIdentifier = "ED9E07161C90F369004C22C1"
             BuildableName = "CoolNotes.app"
             BlueprintName = "CoolNotes"
             ReferencedContainer = "container:CoolNotes.xcodeproj">

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CoolNotes
 //
-//  Created by Daniel Pratt on 4/10/17.
-//  Copyright © 2017 Daniel Pratt. All rights reserved.
+//  Created by Fernando Rodríguez Romero on 09/03/16.
+//  Copyright © 2016 udacity.com. All rights reserved.
 //
 
 import UIKit

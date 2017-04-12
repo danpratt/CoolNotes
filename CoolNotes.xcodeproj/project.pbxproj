@@ -7,45 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		659DE6681E9D80F4004342BE /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DE6671E9D80F4004342BE /* CoreDataTableViewController.swift */; };
-		659DE66A1E9D8159004342BE /* NotebooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DE6691E9D8159004342BE /* NotebooksTableViewController.swift */; };
-		659DE66E1E9D8BDB004342BE /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DE66D1E9D8BDB004342BE /* NotesTableViewController.swift */; };
-		659DE6701E9D90B6004342BE /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DE66F1E9D90B6004342BE /* NoteDetailViewController.swift */; };
-		65C626891E9C2BAC0004139B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626881E9C2BAC0004139B /* AppDelegate.swift */; };
-		65C6268B1E9C2BAC0004139B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6268A1E9C2BAC0004139B /* ViewController.swift */; };
-		65C6268E1E9C2BAC0004139B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C6268C1E9C2BAC0004139B /* Main.storyboard */; };
-		65C626901E9C2BAC0004139B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C6268F1E9C2BAC0004139B /* Assets.xcassets */; };
-		65C626931E9C2BAC0004139B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C626911E9C2BAC0004139B /* LaunchScreen.storyboard */; };
-		65C6269C1E9C2BDC0004139B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65C6269A1E9C2BDC0004139B /* Model.xcdatamodeld */; };
-		65C626A11E9C3D7D0004139B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626A01E9C3D7D0004139B /* CoreDataStack.swift */; };
-		65C626AE1E9C3FB30004139B /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */; };
-		65C626AF1E9C3FB30004139B /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */; };
-		65C626B01E9C3FB30004139B /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */; };
-		65C626B11E9C3FB30004139B /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */; };
+		A9AECDF51D36CB0E0051289E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDEE1D36CB0E0051289E /* CoreDataStack.swift */; };
+		A9AECDF61D36CB0E0051289E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDEF1D36CB0E0051289E /* Model.xcdatamodeld */; };
+		A9AECDF71D36CB0E0051289E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDF11D36CB0E0051289E /* Note.swift */; };
+		A9AECDF81D36CB0E0051289E /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDF21D36CB0E0051289E /* Note+CoreDataProperties.swift */; };
+		A9AECDF91D36CB0E0051289E /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDF31D36CB0E0051289E /* Notebook.swift */; };
+		A9AECDFA1D36CB0E0051289E /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDF41D36CB0E0051289E /* Notebook+CoreDataProperties.swift */; };
+		A9AECDFD1D36CB3B0051289E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AECDFB1D36CB3B0051289E /* LaunchScreen.xib */; };
+		ED9E071B1C90F369004C22C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E071A1C90F369004C22C1 /* AppDelegate.swift */; };
+		ED9E071D1C90F369004C22C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E071C1C90F369004C22C1 /* ViewController.swift */; };
+		ED9E07201C90F369004C22C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E071E1C90F369004C22C1 /* Main.storyboard */; };
+		ED9E07221C90F369004C22C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E07211C90F369004C22C1 /* Assets.xcassets */; };
+		EDFD7F191C92318D004EE292 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD7F181C92318D004EE292 /* CoreDataTableViewController.swift */; };
+		EDFD7F1B1C92325D004EE292 /* NotebooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD7F1A1C92325D004EE292 /* NotebooksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		659DE6671E9D80F4004342BE /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
-		659DE6691E9D8159004342BE /* NotebooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksTableViewController.swift; sourceTree = "<group>"; };
-		659DE66D1E9D8BDB004342BE /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
-		659DE66F1E9D90B6004342BE /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
-		65C626851E9C2BAC0004139B /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C626881E9C2BAC0004139B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C6268A1E9C2BAC0004139B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65C6268D1E9C2BAC0004139B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65C6268F1E9C2BAC0004139B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65C626921E9C2BAC0004139B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		65C626941E9C2BAC0004139B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65C6269B1E9C2BDC0004139B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		65C626A01E9C3D7D0004139B /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Model/CoreDataStack.swift; sourceTree = "<group>"; };
-		65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Model/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
-		65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "Model/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "Model/Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
-		65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "Model/Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9AECDEE1D36CB0E0051289E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoolNotes/CoreDataStack.swift; sourceTree = "<group>"; };
+		A9AECDF01D36CB0E0051289E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A9AECDF11D36CB0E0051289E /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = CoolNotes/Note.swift; sourceTree = "<group>"; };
+		A9AECDF21D36CB0E0051289E /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "CoolNotes/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9AECDF31D36CB0E0051289E /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notebook.swift; path = CoolNotes/Notebook.swift; sourceTree = "<group>"; };
+		A9AECDF41D36CB0E0051289E /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "CoolNotes/Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9AECDFC1D36CB3B0051289E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED9E07171C90F369004C22C1 /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E071A1C90F369004C22C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED9E071C1C90F369004C22C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED9E071F1C90F369004C22C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED9E07211C90F369004C22C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9E07261C90F369004C22C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFD7F181C92318D004EE292 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		EDFD7F1A1C92325D004EE292 /* NotebooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65C626821E9C2BAC0004139B /* Frameworks */ = {
+		ED9E07141C90F369004C22C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,87 +51,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		659DE6661E9D80D8004342BE /* Controller */ = {
+		A9AECDFE1D36CB410051289E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				65C6268A1E9C2BAC0004139B /* ViewController.swift */,
-				659DE6671E9D80F4004342BE /* CoreDataTableViewController.swift */,
-				659DE6691E9D8159004342BE /* NotebooksTableViewController.swift */,
-				659DE66F1E9D90B6004342BE /* NoteDetailViewController.swift */,
-				659DE66D1E9D8BDB004342BE /* NotesTableViewController.swift */,
+				ED9E071E1C90F369004C22C1 /* Main.storyboard */,
+				A9AECDFB1D36CB3B0051289E /* LaunchScreen.xib */,
+				ED9E07211C90F369004C22C1 /* Assets.xcassets */,
 			);
-			name = Controller;
+			name = Assets;
 			sourceTree = "<group>";
 		};
-		659DE66B1E9D8308004342BE /* Supporting Files */ = {
+		A9AECDFF1D36CB450051289E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65C626881E9C2BAC0004139B /* AppDelegate.swift */,
-				65C626941E9C2BAC0004139B /* Info.plist */,
+				ED9E07261C90F369004C22C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		659DE66C1E9D8310004342BE /* View */ = {
+		ED9E070E1C90F369004C22C1 = {
 			isa = PBXGroup;
 			children = (
-				65C6268C1E9C2BAC0004139B /* Main.storyboard */,
-				65C6268F1E9C2BAC0004139B /* Assets.xcassets */,
-				65C626911E9C2BAC0004139B /* LaunchScreen.storyboard */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		65C6267C1E9C2BAC0004139B = {
-			isa = PBXGroup;
-			children = (
-				65C626871E9C2BAC0004139B /* CoolNotes */,
-				65C626861E9C2BAC0004139B /* Products */,
+				ED9E07191C90F369004C22C1 /* CoolNotes */,
+				ED9E07181C90F369004C22C1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65C626861E9C2BAC0004139B /* Products */ = {
+		ED9E07181C90F369004C22C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65C626851E9C2BAC0004139B /* CoolNotes.app */,
+				ED9E07171C90F369004C22C1 /* CoolNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65C626871E9C2BAC0004139B /* CoolNotes */ = {
+		ED9E07191C90F369004C22C1 /* CoolNotes */ = {
 			isa = PBXGroup;
 			children = (
-				65C6269D1E9C3CBC0004139B /* Model */,
-				659DE66C1E9D8310004342BE /* View */,
-				659DE6661E9D80D8004342BE /* Controller */,
-				659DE66B1E9D8308004342BE /* Supporting Files */,
+				ED9E071A1C90F369004C22C1 /* AppDelegate.swift */,
+				ED9E071C1C90F369004C22C1 /* ViewController.swift */,
+				EDFD7F0F1C91FEC1004EE292 /* Models */,
+				EDFD7F171C92314F004EE292 /* Controllers */,
+				A9AECDFE1D36CB410051289E /* Assets */,
+				A9AECDFF1D36CB450051289E /* Supporting Files */,
 			);
 			path = CoolNotes;
 			sourceTree = "<group>";
 		};
-		65C6269D1E9C3CBC0004139B /* Model */ = {
+		EDFD7F0F1C91FEC1004EE292 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				65C626AA1E9C3FB30004139B /* Note+CoreDataClass.swift */,
-				65C626AB1E9C3FB30004139B /* Note+CoreDataProperties.swift */,
-				65C626AC1E9C3FB30004139B /* Notebook+CoreDataClass.swift */,
-				65C626AD1E9C3FB30004139B /* Notebook+CoreDataProperties.swift */,
-				65C626A01E9C3D7D0004139B /* CoreDataStack.swift */,
-				65C6269A1E9C2BDC0004139B /* Model.xcdatamodeld */,
+				A9AECDEE1D36CB0E0051289E /* CoreDataStack.swift */,
+				A9AECDEF1D36CB0E0051289E /* Model.xcdatamodeld */,
+				A9AECDF11D36CB0E0051289E /* Note.swift */,
+				A9AECDF21D36CB0E0051289E /* Note+CoreDataProperties.swift */,
+				A9AECDF31D36CB0E0051289E /* Notebook.swift */,
+				A9AECDF41D36CB0E0051289E /* Notebook+CoreDataProperties.swift */,
 			);
-			name = Model;
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EDFD7F171C92314F004EE292 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDFD7F181C92318D004EE292 /* CoreDataTableViewController.swift */,
+				EDFD7F1A1C92325D004EE292 /* NotebooksViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65C626841E9C2BAC0004139B /* CoolNotes */ = {
+		ED9E07161C90F369004C22C1 /* CoolNotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C626971E9C2BAC0004139B /* Build configuration list for PBXNativeTarget "CoolNotes" */;
+			buildConfigurationList = ED9E07341C90F369004C22C1 /* Build configuration list for PBXNativeTarget "CoolNotes" */;
 			buildPhases = (
-				65C626811E9C2BAC0004139B /* Sources */,
-				65C626821E9C2BAC0004139B /* Frameworks */,
-				65C626831E9C2BAC0004139B /* Resources */,
+				ED9E07131C90F369004C22C1 /* Sources */,
+				ED9E07141C90F369004C22C1 /* Frameworks */,
+				ED9E07151C90F369004C22C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -143,27 +138,26 @@
 			);
 			name = CoolNotes;
 			productName = CoolNotes;
-			productReference = 65C626851E9C2BAC0004139B /* CoolNotes.app */;
+			productReference = ED9E07171C90F369004C22C1 /* CoolNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65C6267D1E9C2BAC0004139B /* Project object */ = {
+		ED9E070F1C90F369004C22C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Daniel Pratt";
+				ORGANIZATIONNAME = udacity.com;
 				TargetAttributes = {
-					65C626841E9C2BAC0004139B = {
-						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = ZJ769HHQS2;
-						ProvisioningStyle = Automatic;
+					ED9E07161C90F369004C22C1 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 65C626801E9C2BAC0004139B /* Build configuration list for PBXProject "CoolNotes" */;
+			buildConfigurationList = ED9E07121C90F369004C22C1 /* Build configuration list for PBXProject "CoolNotes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,77 +165,74 @@
 				en,
 				Base,
 			);
-			mainGroup = 65C6267C1E9C2BAC0004139B;
-			productRefGroup = 65C626861E9C2BAC0004139B /* Products */;
+			mainGroup = ED9E070E1C90F369004C22C1;
+			productRefGroup = ED9E07181C90F369004C22C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65C626841E9C2BAC0004139B /* CoolNotes */,
+				ED9E07161C90F369004C22C1 /* CoolNotes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65C626831E9C2BAC0004139B /* Resources */ = {
+		ED9E07151C90F369004C22C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C626931E9C2BAC0004139B /* LaunchScreen.storyboard in Resources */,
-				65C626901E9C2BAC0004139B /* Assets.xcassets in Resources */,
-				65C6268E1E9C2BAC0004139B /* Main.storyboard in Resources */,
+				A9AECDFD1D36CB3B0051289E /* LaunchScreen.xib in Resources */,
+				ED9E07221C90F369004C22C1 /* Assets.xcassets in Resources */,
+				ED9E07201C90F369004C22C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65C626811E9C2BAC0004139B /* Sources */ = {
+		ED9E07131C90F369004C22C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C626B11E9C3FB30004139B /* Notebook+CoreDataProperties.swift in Sources */,
-				659DE66E1E9D8BDB004342BE /* NotesTableViewController.swift in Sources */,
-				65C6268B1E9C2BAC0004139B /* ViewController.swift in Sources */,
-				65C626891E9C2BAC0004139B /* AppDelegate.swift in Sources */,
-				65C626AE1E9C3FB30004139B /* Note+CoreDataClass.swift in Sources */,
-				659DE6701E9D90B6004342BE /* NoteDetailViewController.swift in Sources */,
-				659DE66A1E9D8159004342BE /* NotebooksTableViewController.swift in Sources */,
-				65C6269C1E9C2BDC0004139B /* Model.xcdatamodeld in Sources */,
-				65C626B01E9C3FB30004139B /* Notebook+CoreDataClass.swift in Sources */,
-				65C626A11E9C3D7D0004139B /* CoreDataStack.swift in Sources */,
-				65C626AF1E9C3FB30004139B /* Note+CoreDataProperties.swift in Sources */,
-				659DE6681E9D80F4004342BE /* CoreDataTableViewController.swift in Sources */,
+				A9AECDF51D36CB0E0051289E /* CoreDataStack.swift in Sources */,
+				A9AECDF81D36CB0E0051289E /* Note+CoreDataProperties.swift in Sources */,
+				A9AECDFA1D36CB0E0051289E /* Notebook+CoreDataProperties.swift in Sources */,
+				EDFD7F1B1C92325D004EE292 /* NotebooksViewController.swift in Sources */,
+				A9AECDF71D36CB0E0051289E /* Note.swift in Sources */,
+				A9AECDF91D36CB0E0051289E /* Notebook.swift in Sources */,
+				ED9E071D1C90F369004C22C1 /* ViewController.swift in Sources */,
+				ED9E071B1C90F369004C22C1 /* AppDelegate.swift in Sources */,
+				EDFD7F191C92318D004EE292 /* CoreDataTableViewController.swift in Sources */,
+				A9AECDF61D36CB0E0051289E /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65C6268C1E9C2BAC0004139B /* Main.storyboard */ = {
+		A9AECDFB1D36CB3B0051289E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65C6268D1E9C2BAC0004139B /* Base */,
+				A9AECDFC1D36CB3B0051289E /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		65C626911E9C2BAC0004139B /* LaunchScreen.storyboard */ = {
+		ED9E071E1C90F369004C22C1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65C626921E9C2BAC0004139B /* Base */,
+				ED9E071F1C90F369004C22C1 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		65C626951E9C2BAC0004139B /* Debug */ = {
+		ED9E07321C90F369004C22C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -249,7 +240,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -277,21 +267,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		65C626961E9C2BAC0004139B /* Release */ = {
+		ED9E07331C90F369004C22C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -299,7 +287,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -321,36 +308,34 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		65C626981E9C2BAC0004139B /* Debug */ = {
+		ED9E07351C90F369004C22C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZJ769HHQS2;
 				INFOPLIST_FILE = CoolNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BlauMagier.CoolNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.CoolNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		65C626991E9C2BAC0004139B /* Release */ = {
+		ED9E07361C90F369004C22C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZJ769HHQS2;
 				INFOPLIST_FILE = CoolNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BlauMagier.CoolNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.CoolNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -358,20 +343,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65C626801E9C2BAC0004139B /* Build configuration list for PBXProject "CoolNotes" */ = {
+		ED9E07121C90F369004C22C1 /* Build configuration list for PBXProject "CoolNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65C626951E9C2BAC0004139B /* Debug */,
-				65C626961E9C2BAC0004139B /* Release */,
+				ED9E07321C90F369004C22C1 /* Debug */,
+				ED9E07331C90F369004C22C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C626971E9C2BAC0004139B /* Build configuration list for PBXNativeTarget "CoolNotes" */ = {
+		ED9E07341C90F369004C22C1 /* Build configuration list for PBXNativeTarget "CoolNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65C626981E9C2BAC0004139B /* Debug */,
-				65C626991E9C2BAC0004139B /* Release */,
+				ED9E07351C90F369004C22C1 /* Debug */,
+				ED9E07361C90F369004C22C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -379,18 +364,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		65C6269A1E9C2BDC0004139B /* Model.xcdatamodeld */ = {
+		A9AECDEF1D36CB0E0051289E /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				65C6269B1E9C2BDC0004139B /* Model.xcdatamodel */,
+				A9AECDF01D36CB0E0051289E /* Model.xcdatamodel */,
 			);
-			currentVersion = 65C6269B1E9C2BDC0004139B /* Model.xcdatamodel */;
+			currentVersion = A9AECDF01D36CB0E0051289E /* Model.xcdatamodel */;
 			name = Model.xcdatamodeld;
-			path = Model/Model.xcdatamodeld;
+			path = CoolNotes/Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 65C6267D1E9C2BAC0004139B /* Project object */;
+	rootObject = ED9E070F1C90F369004C22C1 /* Project object */;
 }

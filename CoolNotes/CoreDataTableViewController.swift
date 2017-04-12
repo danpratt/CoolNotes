@@ -1,6 +1,6 @@
 //
 //  CoreDataTableViewController.swift
-//
+//  Tricorder
 //
 //  Created by Fernando Rodríguez Romero on 22/02/16.
 //  Copyright © 2016 udacity.com. All rights reserved.
@@ -103,7 +103,7 @@ extension CoreDataTableViewController {
             do {
                 try fc.performFetch()
             } catch let e as NSError {
-                print("Error while trying to perform a search: \n\(e)\n\(String(describing: fetchedResultsController))")
+                print("Error while trying to perform a search: \n\(e)\n\(fetchedResultsController)")
             }
         }
     }
@@ -118,7 +118,7 @@ extension CoreDataTableViewController: NSFetchedResultsControllerDelegate {
     }
     
     func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange sectionInfo: NSFetchedResultsSectionInfo, atSectionIndex sectionIndex: Int, for type: NSFetchedResultsChangeType) {
-            
+        
         let set = IndexSet(integer: sectionIndex)
         
         switch (type) {

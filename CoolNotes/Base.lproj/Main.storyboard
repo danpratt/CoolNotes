@@ -1,176 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F54b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="k03-fg-jXw">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cCn-CR-YjK">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
-        <scene sceneID="SAT-W5-xUs">
+        <!--CoolNotes-->
+        <scene sceneID="0xq-pb-Qch">
             <objects>
-                <tableViewController id="3P3-iX-xSf" customClass="NotebooksTableViewController" customModule="CoolNotes" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sWM-DG-4ym">
+                <tableViewController title="CoolNotes" id="dFb-Ue-3Vt" customClass="NotebooksViewController" customModule="CoolNotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xyg-2q-cWt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotebookCell" textLabel="Dsc-OM-LMe" detailTextLabel="ehA-s1-7cC" imageView="D7S-OQ-Knl" style="IBUITableViewCellStyleSubtitle" id="TcC-P5-kWt">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotebookCell" textLabel="882-GC-abQ" detailTextLabel="HXH-qY-do0" imageView="Ab4-oL-Gpw" style="IBUITableViewCellStyleSubtitle" id="hr7-Tz-bT7">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TcC-P5-kWt" id="K8v-Rg-FWf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hr7-Tz-bT7" id="c0e-l6-lCI">
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dsc-OM-LMe">
-                                            <rect key="frame" x="74" y="5" width="33.5" height="20.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="882-GC-abQ">
+                                            <frame key="frameInset" minX="73" minY="5" width="32" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ehA-s1-7cC">
-                                            <rect key="frame" x="74" y="25.5" width="44" height="14.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <nil key="textColor"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HXH-qY-do0">
+                                            <frame key="frameInset" minX="73" minY="25" width="41" height="14"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="notebook" id="D7S-OQ-Knl">
-                                            <rect key="frame" x="15" y="0.0" width="44" height="43.5"/>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Notebook" id="Ab4-oL-Gpw">
+                                            <frame key="frameInset" minX="15" width="43" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="IvG-i3-6T7" kind="show" identifier="displayNote" id="0LG-ha-zng"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="3P3-iX-xSf" id="qcg-sS-lHt"/>
-                            <outlet property="delegate" destination="3P3-iX-xSf" id="q0M-L5-RPh"/>
+                            <outlet property="dataSource" destination="dFb-Ue-3Vt" id="WtF-va-62M"/>
+                            <outlet property="delegate" destination="dFb-Ue-3Vt" id="9GD-l0-Cft"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="gDf-mw-0Me"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="mDx-a0-kc1">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="m7q-vI-uGF">
+                            <connections>
+                                <action selector="addNewNotebook:" destination="dFb-Ue-3Vt" id="D6D-lO-hRb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VcY-RI-cyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mpB-KX-lLy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7" y="110"/>
+            <point key="canvasLocation" x="498" y="-317"/>
         </scene>
-        <!--Notes Table View Controller-->
-        <scene sceneID="5aW-qG-h7t">
+        <!--CoolNotes-->
+        <scene sceneID="EAs-ek-gfL">
             <objects>
-                <tableViewController id="IvG-i3-6T7" customClass="NotesTableViewController" customModule="CoolNotes" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="O4p-DO-zRj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Note" textLabel="qzE-3G-dya" imageView="mB6-Id-fOY" style="IBUITableViewCellStyleDefault" id="U1n-6Q-AGY">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U1n-6Q-AGY" id="TAY-50-xyy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qzE-3G-dya">
-                                            <rect key="frame" x="74" y="0.0" width="286" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="note" id="mB6-Id-fOY">
-                                            <rect key="frame" x="15" y="0.0" width="44" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="oY6-3M-8VP" kind="show" identifier="displayNoteDetail" id="60s-Cp-zhI"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="IvG-i3-6T7" id="9tc-WK-3Vt"/>
-                            <outlet property="delegate" destination="IvG-i3-6T7" id="qQC-p4-ZBJ"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rw4-fK-ZYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="790" y="109"/>
-        </scene>
-        <!--Note Detail View Controller-->
-        <scene sceneID="rB5-ao-OTk">
-            <objects>
-                <viewController id="oY6-3M-8VP" customClass="NoteDetailViewController" customModule="CoolNotes" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Mim-Q9-YjR"/>
-                        <viewControllerLayoutGuide type="bottom" id="Lx5-0d-y69"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DYs-dw-1if">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="note" translatesAutoresizingMaskIntoConstraints="NO" id="KiI-cT-lfw">
-                                <rect key="frame" x="81" y="64" width="213" height="196"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="196" id="nK4-cz-Yug"/>
-                                </constraints>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6jx-lA-LMd">
-                                <rect key="frame" x="16" y="268" width="343" height="379"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="KiI-cT-lfw" firstAttribute="leading" secondItem="DYs-dw-1if" secondAttribute="leadingMargin" constant="65" id="JUF-4j-ODI"/>
-                            <constraint firstAttribute="bottom" secondItem="6jx-lA-LMd" secondAttribute="bottom" constant="20" symbolic="YES" id="eD8-Wy-GT0"/>
-                            <constraint firstItem="KiI-cT-lfw" firstAttribute="top" secondItem="Mim-Q9-YjR" secondAttribute="bottom" id="hBU-rc-vhE"/>
-                            <constraint firstItem="KiI-cT-lfw" firstAttribute="centerX" secondItem="6jx-lA-LMd" secondAttribute="centerX" id="kVQ-aL-I2I"/>
-                            <constraint firstItem="6jx-lA-LMd" firstAttribute="trailing" secondItem="DYs-dw-1if" secondAttribute="trailingMargin" id="obz-4S-iTe"/>
-                            <constraint firstItem="6jx-lA-LMd" firstAttribute="leading" secondItem="DYs-dw-1if" secondAttribute="leadingMargin" id="s0d-QV-NW1"/>
-                            <constraint firstItem="6jx-lA-LMd" firstAttribute="top" secondItem="KiI-cT-lfw" secondAttribute="bottom" constant="8" symbolic="YES" id="zpe-TG-j0s"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="noteText" destination="6jx-lA-LMd" id="jYE-Jg-jIH"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K0w-ZL-ZJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1525.5999999999999" y="108.39580209895054"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="0ZM-3q-1ag">
-            <objects>
-                <navigationController id="k03-fg-jXw" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8DE-n7-vj3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <navigationController title="CoolNotes" id="cCn-CR-YjK" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="InW-am-Pr2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="3P3-iX-xSf" kind="relationship" relationship="rootViewController" id="jTx-es-5x8"/>
+                        <segue destination="dFb-Ue-3Vt" kind="relationship" relationship="rootViewController" id="Ea6-HX-FsD"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qba-UY-aKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpK-Sk-S7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-945" y="110"/>
+            <point key="canvasLocation" x="-322" y="-317"/>
         </scene>
     </scenes>
     <resources>
-        <image name="note" width="512" height="512"/>
-        <image name="notebook" width="512" height="512"/>
+        <image name="Notebook" width="512" height="512"/>
     </resources>
 </document>
